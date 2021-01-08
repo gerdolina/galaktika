@@ -1,0 +1,147 @@
+body {
+  background: url("mountains.jpg") no-repeat center center fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 90vh;
+  position: relative;
+}
+
+p {
+  margin-bottom: 0;
+}
+
+#sectionNAVbar {
+  color: #fff;
+  font-size: 1rem;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+#sectionNAVbar h2 {
+  font-size: 5rem;
+  font-family: 'Sacramento', cursive;
+  text-align: right;
+}
+
+#sectionNAVbar p {
+  font-family: 'Noto Sans', sans-serif;
+  text-align: right;
+}
+
+#sectionNAVbar img {
+  margin-top: 3rem;
+  width: 50%;
+  text-align: center;
+}
+
+#sectionNAVbar i {
+  text-decoration: none;
+  color: #fff
+}
+
+#sectionStraipsniai a {
+  text-decoration: none;
+  color: white;
+}
+
+#sectionStraipsniai {
+  text-align: center;
+}
+
+#sectionStraipsniai img {
+  width: 80%
+}
+
+#sectionStraipsniai img:hover {
+  width: 82%
+}
+
+#sectionStraipsniai h3 {
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 1.5rem;
+  padding-top: 1rem;
+}
+
+#sectionStraipsniai p {
+  text-align: inherit;
+  font-family: 'Playfair Display', serif;
+}
+
+.jumbotron {
+  background: rgba(204, 204, 204, 0.5);
+}
+
+.container-fluid {
+  padding: 1% 15%;
+}
+
+.navbar {
+  padding-bottom: 4.5rem;
+  font-weight: bold;
+}
+
+.navbar-brand {
+  text-decoration: none;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+footer {
+  padding-top: 1rem;
+  text-align: center;
+  font-size: 1rem;
+  color: #fff;
+}
+
+@media (max-width: 1028px) {
+  body {
+    background: url("mountainsMobile.jpg") repeat center center fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100vh;
+    position: relative;
+    line-height: 1;
+  }
+
+  #sectionNAVbar {
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 10vh;
+  }
+
+  #sectionNAVbar p {
+    text-align: center;
+    font-size: 2rem;
+  }
+
+  #sectionNAVbar h2 {
+    font-size: 7rem;
+    text-align: center;
+  }
+
+  #sectionNAVbar img {
+    width: 40%;
+  }
+
+  #sectionStraipsniai img {
+    width: 90%;
+  }
+
+  #sectionStraipsniai h3 {
+    font-size: 3rem;
+  }
+
+  #sectionStraipsniai p {
+    font-size: 1.5rem;
+    padding-top: 1rem;
+  }
+
+  .navbar-brand {
+    font-size: 3rem;
+  }
+
+  footer {
+    font-size: 1.5rem;
+  }
+}

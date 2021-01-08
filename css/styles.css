@@ -1,0 +1,207 @@
+body{
+  background: url("mountains.jpg") no-repeat center center fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 90vh;
+  position: relative;
+}
+
+p{
+  margin-bottom: 0;
+}
+
+#sectionNAVbar {
+  color: #fff;
+  font-size: 1rem;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+#sectionNAVbar h1 {
+  font-size: 8rem;
+  font-family: 'Sacramento', cursive;
+  font-weight: 400;
+  padding: 2rem;
+}
+
+#sectionNAVbar p {
+  font-family: 'Noto Sans', sans-serif;
+  text-align: left;
+  padding-left: 3rem;
+}
+
+#sectionNAVbar i{
+  text-decoration: none;
+  color: #fff
+}
+
+#sectionKategorijos img {
+  width: 40%;
+}
+
+#sectionKategorijos img:hover {
+  width: 42%;
+}
+
+#sectionKategorijos h3 {
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 2rem;
+  padding-top: 1rem;
+}
+
+#sectionKategorijos p {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.2rem;
+}
+
+#sectionKategorijos a {
+  text-decoration: none;
+  color: #fff;
+}
+
+#sectionNaujiStraipsniai {
+  /* background-color: #fff8cd; */
+  text-align: center;
+  padding: 2% 8%;
+  color: #fff;
+}
+
+#sectionNaujiStraipsniai h2 {
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 2rem;
+  padding-bottom: 2rem;
+}
+
+#sectionNaujiStraipsniai h3 {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.2rem;
+  padding-top: 1rem;
+}
+
+#sectionNaujiStraipsniai img {
+  width: 15%;
+}
+
+#sectionNaujiStraipsniai a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.jumbotron {
+    background: rgba(204, 204, 204, 0.5);
+}
+
+.container-fluid {
+  padding: 3% 15%;
+}
+
+.navbar {
+  padding-bottom: 4.5rem;
+  font-weight: bold;
+}
+
+.navbar-brand {
+  text-decoration: none;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+/* KOLONOS */
+.pirmasStulpelis {
+  text-align: left;
+}
+
+.antrasStulpelis {
+  text-align: left;
+}
+
+.treciasKetvirtasPenktasStulpelis {
+  text-align: center;
+}
+
+footer {
+  padding-top: 1rem;
+  text-align: center;
+  font-size: 1rem;
+  color: #fff;
+}
+
+@media (max-width: 1028px) {
+
+  body{
+    background: url("mountainsMobile.jpg") repeat center center fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100vh;
+    position: relative;
+  }
+
+  #sectionNAVbar p {
+    text-align: center;
+    font-size: 3rem;
+  }
+
+  #sectionNAVbar {
+    font-size: 3rem;
+    margin-bottom: 20vh;
+  }
+
+  #sectionNAVbar h1 {
+    padding-top: 10rem;
+    font-size: 10rem;
+  }
+
+  #sectionKategorijos h3 {
+    font-size: 4rem;
+  }
+
+  #sectionKategorijos p {
+    font-size: 3rem;
+  }
+
+  #sectionKategorijos {
+    padding-top: 1rem;
+  }
+
+  #sectionNaujiStraipsniai {
+    padding-top: 1rem;
+  }
+
+  #sectionNaujiStraipsniai img {
+    width: 60%;
+  }
+
+  #sectionNaujiStraipsniai h3 {
+    font-size: 3rem;
+  }
+
+  #sectionNaujiStraipsniai h2 {
+    font-size: 4rem;
+  }
+
+  .pirmasStulpelis {
+    text-align: center;
+  }
+
+  .antrasStulpelis {
+    text-align: center;
+  }
+
+  .treciasKetvirtasPenktasStulpelis {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+
+  .navbar-brand {
+    font-size: 3rem;
+  }
+
+  .row {
+    margin: 0;
+  }
+
+  footer{
+    font-size: 2rem;
+  }
+}
